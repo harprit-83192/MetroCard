@@ -1,7 +1,7 @@
 package com.geektrust.backend.services;
 
 public class PrintService {
-    CheckInService checkInService = new CheckInService();
+    public CheckInService checkInService = new CheckInService();
 
     public String getPrintSummary(){
         return "TOTAL_COLLECTION CENTRAL " + checkInService.getCentralCollectionMap() + " " + checkInService.getCentralDiscountMap() +

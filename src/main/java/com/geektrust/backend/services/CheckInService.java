@@ -12,7 +12,7 @@ public class CheckInService {
     private static TreeMap<String, Integer> CentralPassengerCountMap = new TreeMap<>();
     private static TreeMap<String, Integer> AirportPassengerCountMap = new TreeMap<>();
 
-    BalanceService balanceService = new BalanceService();
+    public BalanceService balanceService = new BalanceService();
 
     private static int getTravelCharge(String passengerType){
         switch(passengerType){
