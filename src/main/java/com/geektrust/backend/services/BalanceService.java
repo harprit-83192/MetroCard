@@ -6,7 +6,6 @@ public class BalanceService {
     private static HashMap<String, Integer> cardBalanceMap = new HashMap<>();
 
     public void setMap(String cardNumber, int balance){
-        // MetroCard metroCard = new MetroCard(cardNumber, balance);
         cardBalanceMap.put(cardNumber, balance);
     }
 
